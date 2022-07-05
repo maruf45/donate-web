@@ -6,7 +6,7 @@
     box-sizing: border-box;
 
 }
-
+/* This is header part CSS ************************************* */
 #header {
     height: 100vh;
     width: 100%;
@@ -63,3 +63,6 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+/* Header part end **************************************************** */
+
+/* Donate area Css **************************************************** */
