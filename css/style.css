@@ -373,3 +373,24 @@
     font-size: 16px;
     line-height: 20px;
 }
+
+/* footer section  */
+
+footer {
+    background: #0B0D17;
+    height: 178px;
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+footer .footer-content p {
+    margin-top: 25px;
+    font-family: 'inter ';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #D9DBE1;
+}
