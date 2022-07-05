@@ -247,3 +247,52 @@
 }
 
 /* donate plan area end ***************************************************** */
+
+/* about us are css *************************************************************** */
+
+#about-us {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.about-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-col {
+    width: 700px;
+}
+
+.left-col h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+
+}
+
+.left-col p {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+
+}
+
+.right-col {
+    width: 745px;
+}
+
+.right-col img {
+    width: 745px;
+    object-fit: cover;
+    height: 500px;
+    border-radius: 15px;
+}
