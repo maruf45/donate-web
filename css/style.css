@@ -73,7 +73,7 @@
 
 #donate {
     width: 100%;
-    height: 82vh;
+    height: 48vh;
     margin-top: 130px;
 
 }
@@ -156,3 +156,93 @@
     border: none;
     border-bottom: 1px solid #DADADA;
 }
+
+/* Donate plan area css  **************************** */
+
+#donate-plan {
+    margin-top: 130px;
+    width: 100%;
+}
+
+.donate-plan-area {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.donate-plan-area h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+
+.donate-plan-area p {
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+
+}
+
+.boxs {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.boxes {
+    padding: 63px 22px 54px 23px;
+    border-radius: 5px;
+    width: 360px;
+    height: 352px;
+}
+
+.boxes img {
+    width: 58px;
+}
+
+.boxes h3 {
+    margin-top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #121212;
+}
+
+.boxes p {
+    margin-top: 16px;
+    text-align: left;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.box-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.box-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.box-3 {
+    background: #FFF4D6;
+}
+
+/* donate plan area end ***************************************************** */
