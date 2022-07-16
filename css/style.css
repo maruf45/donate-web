@@ -255,7 +255,7 @@
     width: 100%;
     margin-top: 130px;
 }
-#about-us #title{
+.title{
     font-size: 45px;
     margin: 60px 0;
     font-family: 'Inter';
@@ -311,7 +311,40 @@
     margin-top: 100px;
     width: 100%;
 }
+/* members section  */
 
+#members{
+    width: 100%;
+    height: 80vh;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.avatar{
+    text-align: center;
+}
+.avatar img{
+    border-radius: 10px;
+    width: 450px;
+}
+.avatar h3{
+    margin: 10px 0;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'inter';
+    color: #FF5959;
+}
+.avatar p{
+    font-family: 'inter';
+    font-size: 17px;
+    font-weight: 500;
+    color: #969696;
+}
 /* get my update area css  */
 #get-my-update {
     margin: 130px 0;
